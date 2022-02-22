@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: #080808;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150vh;
+  }
