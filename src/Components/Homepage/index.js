@@ -1,6 +1,11 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import styles from './homepage.module.css';
+import WhoWeAre from './WhoWeAre';
+import Calculator from './Calculator';
+import NftInformation from './NftInformation';
+import NftBanner from './NftBanner';
+import Contact from './Contact';
 
 function Homepage() {
   return (
@@ -16,7 +21,11 @@ function Homepage() {
           </div>
         </div>
       </header>
-      aaaaa
+      <WhoWeAre />
+      <Calculator />
+      <NftInformation />
+      <NftBanner />
+      <Contact />
     </div>
   );
 }
