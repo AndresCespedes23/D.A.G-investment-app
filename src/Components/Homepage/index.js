@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import Header from './Header';
 import WhoWeAre from './WhoWeAre';
 import Calculator from './Calculator';
 import NftInformation from './NftInformation';
@@ -9,6 +10,7 @@ import Contact from './Contact';
 function Homepage() {
   return (
     <div>
+      <Header />
       <WhoWeAre />
       <Calculator />
       <NftInformation />

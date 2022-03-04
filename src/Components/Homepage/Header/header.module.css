@@ -1,0 +1,10 @@
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+}
+    ul {
+        display: flex;
+    }
+        li {
+            padding: 0 2vw 0 2vw;
+        }
