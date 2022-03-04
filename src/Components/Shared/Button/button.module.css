@@ -1,0 +1,75 @@
+* {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 1px;
+}
+.add,
+.delete,
+.update,
+.info {
+  margin: 5px;
+  padding: 3px 6px 3px 6px;
+  border: 2px solid #002147;
+  border-radius: 12px;
+  box-shadow: 5px 9px 10px #68686842;
+  background-color: #002147;;
+  color: #fff;
+}
+
+.add {
+  cursor: cell;
+}
+
+.add:hover,
+.delete:hover,
+.update:hover,
+.info:hover {
+  background-color: #fff;
+  color: #002147;
+  cursor: pointer;
+}
+
+.submit,
+.search,
+.addNew {
+  margin: 5px;
+  padding: 5px 20px;
+  background-color: #680404;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 9px 10px #68686842;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+}
+.submit {
+  font-size: 16px;
+  font-weight: 700;
+}
+.submit:hover,
+.search:hover,
+.addNew:hover {
+  background-color: #002147;
+  color: #fff;
+  cursor: pointer;
+}
+
+.confirm,
+.cancel {
+  padding: 5px 15px;
+  background-color: #fff;
+  border: 2px solid #002147;
+  border-radius: 15px;
+  box-shadow: 5px 9px 10px #68686842;
+}
+.confirm:hover,
+.cancel:hover {
+  background-color: #680404;
+  border: 2px solid #680404;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

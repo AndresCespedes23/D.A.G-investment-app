@@ -2,7 +2,6 @@
 import React from 'react';
 import Header from './Header';
 import WhoWeAre from './WhoWeAre';
-import Calculator from './Calculator';
 import NftInformation from './NftInformation';
 import NftBanner from './NftBanner';
 import Contact from './Contact';
@@ -12,7 +11,6 @@ function Homepage() {
     <div>
       <Header />
       <WhoWeAre />
-      <Calculator />
       <NftInformation />
       <NftBanner />
       <Contact />

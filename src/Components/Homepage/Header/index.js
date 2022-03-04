@@ -14,7 +14,6 @@ function Header() {
         <li>Contact</li>
         <li>Login</li>
       </ul>
-
     </header>
   );
 }
