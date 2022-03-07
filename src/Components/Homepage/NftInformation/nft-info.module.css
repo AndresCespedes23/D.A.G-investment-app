@@ -1,6 +1,8 @@
-section {
+.nftContainer {
     display: flex;
     justify-content: space-around;
+    background-color: #131313;
+    color: #f9d200;
 }
     .title {
         font-size: larger;

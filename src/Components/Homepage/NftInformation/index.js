@@ -4,9 +4,9 @@ import styles from './nft-info.module.css';
 
 function NftInformation() {
   return (
-    <section>
+    <section className={styles.nftContainer}>
       <div className={styles.title}>
-        <h2>NFTs are a bla bla bla</h2>
+        <h2>NFTs </h2>
       </div>
       <div className={styles.nftBtn}>
         <button type="button">

@@ -1,6 +1,8 @@
 .headerContent {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: #f9d200;
 }
     ul {
         display: flex;

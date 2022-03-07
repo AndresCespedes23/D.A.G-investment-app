@@ -8,12 +8,14 @@ function Header() {
       <div>
         Company logo
       </div>
-      <ul>
-        <li>Who we are</li>
-        <li>NFT</li>
-        <li>Contact</li>
-        <li>Login</li>
-      </ul>
+      <nav>
+        <ul>
+          <li>Who we are</li>
+          <li>NFT</li>
+          <li>Contact</li>
+          <li>Login</li>
+        </ul>
+      </nav>
     </header>
   );
 }

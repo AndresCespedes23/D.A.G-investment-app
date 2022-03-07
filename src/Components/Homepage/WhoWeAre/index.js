@@ -4,7 +4,7 @@ import styles from './presentation.module.css';
 
 function WhoWeAre() {
   return (
-    <section>
+    <section className={styles.presentationContainer}>
       <div className={styles.title}>
         <h2>we are a company that do bla bla bla and we invest in bla bla bla</h2>
       </div>

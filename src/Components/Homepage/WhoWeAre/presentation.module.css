@@ -1,6 +1,8 @@
-section {
+.presentationContainer {
     display: flex;
     justify-content: space-around;
+    background-color: #090909;
+    color: #f9d200;
 }
     .title {
         font-size: larger;
