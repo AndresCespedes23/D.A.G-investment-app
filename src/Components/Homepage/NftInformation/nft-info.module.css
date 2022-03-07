@@ -1,9 +1,33 @@
 .nftContainer {
     display: flex;
     justify-content: space-around;
-    background-color: #131313;
-    color: #f9d200;
+    color: #d6b400;
+    background-image:url('./img/ROBDVO4PFNFULOLBIK3DGUO5KQ.jpg');
+    background-color: #090909;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
 }
-    .title {
-        font-size: larger;
+    .nftShadowEffect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #090909af;
     }
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4rem;
+        }
+        .infoNft {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 2rem 1rem 2rem;
+        }
+        .nftBtn {
+            padding-top: 4vh;
+        }   

@@ -5,13 +5,26 @@ import styles from './presentation.module.css';
 function WhoWeAre() {
   return (
     <section className={styles.presentationContainer}>
-      <div className={styles.title}>
-        <h2>we are a company that do bla bla bla and we invest in bla bla bla</h2>
-      </div>
-      <div className={styles.calculatorBtn}>
-        <button type="button">
-          Simulate your inversion
-        </button>
+      <div className={styles.presentationShadowEffect}>
+        <div>
+          <h2 className={styles.title}>Who We are</h2>
+          <p className={styles.infoW}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Etiam sit amet venenatis felis. Aenean sed dapibus mauris.
+            Vestibulum eget blandit risus, sit amet efficitur felis.
+            Suspendisse feugiat metus in tortor aliquam, at tempor enim sollicitudin.
+            Proin luctus ullamcorper nisl a consequat.
+            Proin posuere nisi enim, sed maximus lorem elementum a.
+            elit orci, maximus rhoncus vehicula vitae, vulputate et neque.
+            Etiam venenatis odio vitae justo tristique, sed vehicula lectus varius.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac libero nisi.
+          </p>
+        </div>
+        <div className={styles.calculatorBtn}>
+          <button type="button">
+            Simulate your inversion
+          </button>
+        </div>
       </div>
     </section>
   );
