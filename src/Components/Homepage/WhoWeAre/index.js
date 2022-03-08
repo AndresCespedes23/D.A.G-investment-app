@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import styles from './presentation.module.css';
-import Modal from '../../Shared/Modal';
 
 function WhoWeAre() {
   return (
@@ -25,7 +24,6 @@ function WhoWeAre() {
           <button type="button">
             Simulate your inversion
           </button>
-          <Modal />
         </div>
       </div>
     </section>

@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     background-color: black;
+    border-bottom: 1px groove #d6b400;
     transition: .3s ease-in;
 }
     .headerContent {
