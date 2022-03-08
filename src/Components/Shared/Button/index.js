@@ -8,6 +8,7 @@ import {
   FaEdit,
   FaRegWindowClose,
   FaEye,
+  FaBars,
 } from 'react-icons/fa';
 import styles from './button.module.css';
 
@@ -24,6 +25,7 @@ function Button({ type, onClick, text }) {
       {type === 'addNew' && `ADD NEW ${text || ''}`}
       {type === 'confirm' && 'YES'}
       {type === 'cancel' && 'NO'}
+      {type === 'bars' && <FaBars />}
     </button>
   );
 }

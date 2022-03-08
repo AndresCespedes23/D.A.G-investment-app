@@ -73,3 +73,17 @@
 .hide {
   display: none;
 }
+
+.bars {
+  color:#d6b400;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+  .bars {
+    display: none;
+  }
+}
+

@@ -6,9 +6,18 @@
     background: black;
     color: #d6b400;
 }
-    ul {
-        display: flex;
+
+    .navLinks {
+        display: none;
     }
-        li {
-            padding: 0 2vw 0 2vw;
+        ul {
+            display: flex;
         }
+            li {
+                padding: 0 2vw 0 2vw;
+            }
+@media only screen and (min-width: 992px) {
+    .navLinks{
+        display:block;
+    }
+}
