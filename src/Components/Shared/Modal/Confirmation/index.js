@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import Button from 'Components/Shared/Button';
+import Button from '../../Button';
 import styles from './confirmation.module.css';
 
 function Confirmation({ message, handleDelete, handleShowModal }) {
