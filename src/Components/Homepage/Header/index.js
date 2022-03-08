@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className={styles.headerContent}>
       <div>
-        Company logo
+        <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
       </div>
       <Button type="bars" />
       <nav className={styles.navLinks}>

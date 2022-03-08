@@ -1,12 +1,18 @@
 .headerContent {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     padding: 2rem;
-    background: black;
+    background: rgb(0, 0, 0);
     color: #d6b400;
 }
 
+    .logo {
+        height: 8vh;
+        cursor: pointer;
+
+    }
     .navLinks {
         display: none;
     }
