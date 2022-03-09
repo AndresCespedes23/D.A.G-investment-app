@@ -3,11 +3,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './reset.css';
+import { configureStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
 import Routes from './Routes';
+
+const store = configureStore({
+  reducer: {},
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes />
+    <Provider store={store}>
+      <Routes />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
