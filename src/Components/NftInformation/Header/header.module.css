@@ -1,0 +1,28 @@
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+    border-bottom: 1px groove #d6b400;
+    color: #d6b400;
+}
+
+    .logo {
+        height: 8vh;
+        cursor: pointer;
+    }
+    .navLinks {
+        display: none;
+    }
+        ul {
+            display: flex;
+        }
+            li {
+                padding: 0 2vw 0 2vw;
+            }
+@media only screen and (min-width: 992px) {
+    .navLinks{
+        display:block;
+    }
+}

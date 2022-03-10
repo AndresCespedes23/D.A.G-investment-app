@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './nft-info.module.css';
 
 function NftInformation() {
@@ -21,9 +22,11 @@ function NftInformation() {
           </p>
         </div>
         <div className={styles.nftBtn}>
-          <button type="button">
-            See more
-          </button>
+          <Link to="/nft-information">
+            <button type="button">
+              See more
+            </button>
+          </Link>
         </div>
       </div>
     </section>
