@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 30vw;
+    height: 100%;
+    border-right: 1px groove #d6b400;
+    background-color: black;
+    color: #d6b400;
+    
+}
+ol li {
+    padding: 2rem;
+}

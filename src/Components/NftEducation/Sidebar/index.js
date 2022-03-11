@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import styles from './navbar.module.css';
+import styles from './sidebar.module.css';
 
-function SideBar() {
+function Sidebar() {
   return (
     <nav className={styles.navBar}>
       <ol>
@@ -14,4 +14,4 @@ function SideBar() {
   );
 }
 
-export default SideBar;
+export default Sidebar;
