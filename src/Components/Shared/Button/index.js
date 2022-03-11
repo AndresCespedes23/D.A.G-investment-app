@@ -6,9 +6,9 @@ import {
   FaPlus,
   FaTrashAlt,
   FaEdit,
-  FaRegWindowClose,
   FaEye,
   FaBars,
+  FaTimes,
 } from 'react-icons/fa';
 import styles from './button.module.css';
 
@@ -19,13 +19,13 @@ function Button({ type, onClick, text }) {
       {type === 'update' && <FaEdit />}
       {type === 'delete' && <FaTrashAlt />}
       {type === 'info' && <FaEye />}
-      {type === 'close' && <FaRegWindowClose />}
       {type === 'submit' && 'SUBMIT'}
       {type === 'search' && `SEARCH ${text || ''}`}
       {type === 'addNew' && `ADD NEW ${text || ''}`}
       {type === 'confirm' && 'YES'}
       {type === 'cancel' && 'NO'}
       {type === 'bars' && <FaBars />}
+      {type === 'close' && <FaTimes />}
     </button>
   );
 }

@@ -1,0 +1,24 @@
+.navbarContainer {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    color:#d6b400;
+    height:100%;
+    width: 100%;
+}
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+        .navLinks li {
+            padding: 2rem;
+            border-bottom: 2px solid #d6b400 ;
+        }
+@media only screen and (min-width: 992px) {
+    .navbarContainer{
+        display:none;
+    }
+}
