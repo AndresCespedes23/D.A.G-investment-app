@@ -1,11 +1,15 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import Header from './Header';
+import SideBar from './Navbar';
 
-function NftInfo() {
+function NftEducation() {
   return (
-    <div><Header /></div>
+    <div>
+      <Header />
+      <SideBar />
+    </div>
   );
 }
 
-export default NftInfo;
+export default NftEducation;
