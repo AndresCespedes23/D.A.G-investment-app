@@ -1,4 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .navBar {
     display: flex;
     justify-content: flex-end;
+    background-color: black;
+    color: #d6b400;
 }
