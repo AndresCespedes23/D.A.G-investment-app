@@ -1,8 +1,10 @@
-/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-filename-extension */
+import React, { useState } from 'react';
 import styles from './presentation.module.css';
+import Calculator from '../Calculator';
 
 function WhoWeAre() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section className={styles.presentationContainer}>
       <div className={styles.presentationShadowEffect}>
@@ -20,8 +22,9 @@ function WhoWeAre() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac libero nisi.
           </p>
         </div>
+        <Calculator open={isOpen} onClose={() => setIsOpen(false)} />
         <div className={styles.calculatorBtn}>
-          <button type="button">
+          <button type="button" onClick={() => setIsOpen(true)}>
             Simulate your inversion
           </button>
         </div>
