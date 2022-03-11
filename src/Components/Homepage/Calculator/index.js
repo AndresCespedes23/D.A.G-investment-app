@@ -9,8 +9,16 @@ function Calculator({ open, onClose }) {
   return (
     <div className={styles.calculatorBackground}>
       <div className={styles.calculatorContainer}>
-        <div className={styles.titleCloseBtn}>
+        <div className={styles.closeBtn}>
           <Button type="close" onClick={onClose} />
+        </div>
+        <p className={styles.title}>Simulate your investment</p>
+        <div className={styles.calculator}>
+          <input placeholder="$0" />
+          <select>
+            <option>ARG</option>
+            <option>USD</option>
+          </select>
         </div>
       </div>
     </div>

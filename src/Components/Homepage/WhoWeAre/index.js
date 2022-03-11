@@ -25,7 +25,7 @@ function WhoWeAre() {
         <Calculator open={isOpen} onClose={() => setIsOpen(false)} />
         <div className={styles.calculatorBtn}>
           <button type="button" onClick={() => setIsOpen(true)}>
-            Simulate your inversion
+            Simulate your investment
           </button>
         </div>
       </div>
