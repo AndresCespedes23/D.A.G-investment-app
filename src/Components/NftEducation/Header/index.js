@@ -2,7 +2,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import { Link } from 'react-router-dom';
 import styles from './header.module.css';
-import Button from '../../Shared/Button';
 
 function Header() {
   return (
@@ -11,7 +10,6 @@ function Header() {
         <Link to="/">
           <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
         </Link>
-        <Button type="bars" />
         <div className={styles.navLinks}>
           <ul>
             <li>Login</li>

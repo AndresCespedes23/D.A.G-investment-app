@@ -12,17 +12,9 @@
         height: 8vh;
         cursor: pointer;
     }
-    .navLinks {
-        display: none;
-    }
         ul {
             display: flex;
         }
             li {
                 padding: 0 2vw 0 2vw;
             }
-@media only screen and (min-width: 992px) {
-    .navLinks{
-        display:block;
-    }
-}
