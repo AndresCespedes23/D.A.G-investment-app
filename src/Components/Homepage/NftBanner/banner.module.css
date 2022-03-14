@@ -1,4 +1,11 @@
 .bannerContainer {
-    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    background-image:url('../../../../public/assets/img/bennu-banner1.jpg');
+    background-color: #090909;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 80vh;
     color: #d6b400;
 }
