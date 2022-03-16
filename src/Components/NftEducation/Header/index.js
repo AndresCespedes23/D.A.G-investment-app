@@ -10,11 +10,6 @@ function Header() {
         <Link to="/">
           <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
         </Link>
-        <div className={styles.navLinks}>
-          <ul>
-            <li>Login</li>
-          </ul>
-        </div>
       </nav>
     </header>
   );

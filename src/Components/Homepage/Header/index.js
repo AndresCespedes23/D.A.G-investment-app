@@ -31,7 +31,6 @@ function Header() {
             <li>Who we are</li>
             <li>NFT</li>
             <li>Contact</li>
-            <li>Login</li>
           </ul>
         </div>
       </nav>

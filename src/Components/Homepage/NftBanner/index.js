@@ -15,7 +15,7 @@ function NftBanner() {
         'X-API-KEY': 'xuhY5bsVXeQNxrKvcL2uLMuxqPNChINgBZdXD1z2VuXnpOeWglWIW3k4jgpZiAsn',
       },
     }).then((res) => {
-      console.log(res.data.result[0].metadata);
+      console.log(res.data.result);
       setCollection(res.data.result);
     }).catch((error) => {
       console.error(error);
@@ -32,8 +32,8 @@ function NftBanner() {
         <div>
           {collection.map((nft) => (
             <div>
-              <img key={nft.token_id} src={nft.image} alt={nft.name} />
-              <span>{nft.token_uri}</span>
+              <img src={nft?.metadata} alt={nft.name} />
+              <div>{nft.metadata}</div>
             </div>
           ))}
         </div>
