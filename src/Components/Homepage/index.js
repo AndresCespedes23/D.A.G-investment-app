@@ -1,3 +1,4 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import Header from './Header';
@@ -15,6 +16,7 @@ function Homepage() {
       <NftBanner />
       <Contact />
     </div>
+
   );
 }
 

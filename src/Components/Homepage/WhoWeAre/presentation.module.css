@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     color: #d6b400;
-    background-image:url('./img/plexus.gif');
     background-color: #090909;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +13,6 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: #090909af;
     }
         .title {
             display: flex;
