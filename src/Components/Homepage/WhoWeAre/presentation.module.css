@@ -1,14 +1,12 @@
 .presentationContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     color: #d6b400;
     background-color: #090909;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 100vh;
 }
-    .presentationShadowEffect{
+    .presentationContent{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -30,6 +28,3 @@
             -webkit-text-stroke: #d6b400 1px;
             margin: 1rem 2rem 1rem 2rem;
         }
-        .calculatorBtn {
-            padding-top: 4vh;
-        }   

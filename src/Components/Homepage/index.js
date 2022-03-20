@@ -9,13 +9,13 @@ import Contact from './Contact';
 
 function Homepage() {
   return (
-    <div>
+    <>
       <Header />
       <WhoWeAre />
       <NftInformation />
       <NftBanner />
       <Contact />
-    </div>
+    </>
 
   );
 }
