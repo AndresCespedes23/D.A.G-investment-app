@@ -1,0 +1,17 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh;
+    color: #d6b400;
+    background-color: #090909;
+}
+    .logo {
+        height:10vh;
+    }
+    .copyright {
+        padding-top: 2vh;
+        color: transparent;
+        -webkit-text-stroke: #d6b400 1px;
+    }

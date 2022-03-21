@@ -6,6 +6,7 @@ import WhoWeAre from './WhoWeAre';
 import NftInformation from './NftInformation';
 import NftBanner from './NftBanner';
 import Contact from './Contact';
+import Footer from '../Shared/Footer';
 
 function Homepage() {
   return (
@@ -15,6 +16,7 @@ function Homepage() {
       <NftInformation />
       <NftBanner />
       <Contact />
+      <Footer />
     </>
 
   );
