@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import Fundamentals from './Fundamentals';
+import Security from './Security';
 import Footer from '../Shared/Footer';
 
 function NftEducation() {
@@ -9,6 +10,7 @@ function NftEducation() {
     <div>
       <Header />
       <Fundamentals />
+      <Security />
       <Footer />
     </div>
   );
