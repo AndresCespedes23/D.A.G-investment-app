@@ -5,7 +5,7 @@ import styles from './nft-info.module.css';
 
 function NftInformation() {
   return (
-    <section className={styles.nftContainer}>
+    <section className={styles.nftContainer} id="nft">
       <div className={styles.nftShadowEffect}>
         <h2 className={styles.title}>What are NFTs?</h2>
         <p className={styles.infoNft}>

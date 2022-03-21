@@ -1,7 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-filename-extension */
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import ResponsiveNavbar from '../ResponsiveNavbar';
 import styles from './header.module.css';
 import Button from '../../Shared/Button';
@@ -22,15 +22,13 @@ function Header() {
   return (
     <header className={color ? styles.headerChangeColor : styles.headerPosition}>
       <nav className={styles.headerContent}>
-        <Link to="/">
-          <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
-        </Link>
+        <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
         <Button type="bars" onClick={() => setIsOpen(true)} />
         <div className={styles.navLinks}>
           <ul>
-            <li>Who we are</li>
-            <li>NFT</li>
-            <li>Contact</li>
+            <li><Link to="home" spy smooth offset={50} duration={500}>Who we are</Link></li>
+            <li><Link to="nft" spy smooth offset={50} duration={500}>NFT</Link></li>
+            <li><Link to="contact" spy smooth offset={50} duration={500}>Contact</Link></li>
           </ul>
         </div>
       </nav>

@@ -5,7 +5,7 @@ import styles from './presentation.module.css';
 
 function WhoWeAre() {
   return (
-    <section className={styles.presentationContainer}>
+    <section className={styles.presentationContainer} id="home">
       <DecentralizedBackground />
       <div className={styles.presentationContent}>
         <h2 className={styles.title}>Who We are</h2>
