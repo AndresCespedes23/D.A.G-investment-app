@@ -1,14 +1,19 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-filename-extension */
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import ResponsiveNavbar from '../ResponsiveNavbar';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import styles from './header.module.css';
-import Button from '../../Shared/Button';
 
 function Header() {
   const [color, setColor] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => setClick(false);
 
   const changeColor = () => {
     if (window.scrollY >= 90) {
@@ -23,16 +28,21 @@ function Header() {
     <header className={color ? styles.headerChangeColor : styles.headerPosition}>
       <nav className={styles.headerContent}>
         <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
-        <Button type="bars" onClick={() => setIsOpen(true)} />
-        <div className={styles.navLinks}>
-          <ul>
-            <li><Link to="home" spy smooth offset={50} duration={500}>Who we are</Link></li>
-            <li><Link to="nft" spy smooth offset={50} duration={500}>NFT</Link></li>
-            <li><Link to="contact" spy smooth offset={50} duration={500}>Contact</Link></li>
-          </ul>
+        <div className={styles.responsivePosition}>
+          <div className={styles.hamburger} onClick={handleClick}>
+            {click ? (<FaTimes size={30} />)
+              : (<FaBars size={30} />)}
+          </div>
+          <div className={click ? styles.navLinksActive : styles.navLinks}>
+            <ul>
+              <li><Link to="home" spy smooth offset={50} duration={500} onClick={closeMenu}>Who we are</Link></li>
+              <li><Link to="nft" spy smooth offset={50} duration={500} onClick={closeMenu}>NFT</Link></li>
+              <li><Link to="contact" spy smooth offset={50} duration={500} onClick={closeMenu}>Contact</Link></li>
+            </ul>
+          </div>
         </div>
       </nav>
-      <ResponsiveNavbar open={isOpen} onClose={() => setIsOpen(false)} />
+
     </header>
   );
 }

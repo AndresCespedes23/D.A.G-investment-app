@@ -17,7 +17,6 @@
         padding: 2rem;
         color: #d6b400;
     }
-
         .logo {
             height: 8vh;
             cursor: pointer;
@@ -25,11 +24,8 @@
         .navLinks {
             display: none;
         }
-            ul {
-                display: flex;
-            }
                 li {
-                    padding: 0 2vw 0vw 2vw;
+                    padding: 2vh 0 2vh 0;
                     -webkit-text-stroke: #d6b400 1px;
                     cursor:pointer;
                 }
@@ -43,5 +39,18 @@
         }
             .navLinks{
                 display:block;
+            }
+            ul {
+                display: flex;
+                flex-direction: row;
+            }
+            li {
+                padding: 0 2vw 0vw 2vw;
+                -webkit-text-stroke: #d6b400 1px;
+                cursor:pointer;
+            }
+            .hamburger {
+                display: none;
+                color: #d6b400;
             }
     }
