@@ -1,4 +1,5 @@
 .contactContainer {
     background-color: #090909;
     color: #d6b400;
+    min-height: 100vh;
 }
