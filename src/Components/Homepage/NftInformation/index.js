@@ -22,7 +22,7 @@ function NftInformation() {
         <div className={styles.nftBtn}>
           <Link to="/nft-information">
             <button className={styles.moreInfoBtn} type="button">
-              See more
+              Learn more!
             </button>
           </Link>
         </div>
