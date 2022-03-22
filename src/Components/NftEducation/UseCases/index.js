@@ -9,7 +9,7 @@ function UseCases() {
     <div className={styles.useCasesContainer}>
       <Header />
       <div className={styles.useCasesContent}>
-        <h2>UseCases</h2>
+        <h2>Use Cases of NFTs</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Etiam sit amet venenatis felis. Aenean sed dapibus mauris.
