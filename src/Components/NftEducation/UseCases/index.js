@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 
-function Minting() {
+function UseCases() {
   return (
-    <div>Minting</div>
+    <div>UseCases</div>
   );
 }
 
-export default Minting;
+export default UseCases;
