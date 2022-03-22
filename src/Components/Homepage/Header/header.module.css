@@ -8,6 +8,7 @@
     background-color: black;
     border-bottom: 1px groove #d6b400;
     transition: .3s ease-in;
+    z-index: 1;
 }
     .headerContent {
         display: flex;
