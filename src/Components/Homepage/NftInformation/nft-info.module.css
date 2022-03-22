@@ -29,13 +29,17 @@
                 margin: 1rem 2rem 1rem 2rem;
             }
             .educationCard {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
                 --glow-color: #ffef9f;
                 --glow-spread-color: #ffe97c;
                 --btn-color: #d6b400;
                 border: .25em solid var(--glow-color);
                 margin-top: 5rem;
                 padding: 1em 3em;
-                color: var(--glow-color);
+                color: black;
                 font-size: 15px;
                 font-weight: bold;
                 background-color: var(--btn-color);
@@ -70,6 +74,11 @@
                 .logo {
                     height: 30vh;
                     width: 30vh;
+                }
+                .cardTitle {
+                    font-size: 1rem;
+                    -webkit-text-stroke: black 2px;
+                    text-transform: uppercase;
                 }
         
         
