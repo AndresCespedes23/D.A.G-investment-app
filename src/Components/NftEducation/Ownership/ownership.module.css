@@ -1,0 +1,20 @@
+.ownershipContainer {
+    background: #090909;
+}
+.ownershipContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+    color: #d6b400;
+}
+.ownershipContainer h2 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: #d6b400 2px;
+    text-transform: uppercase;
+}
+.ownershipContainer p {
+    margin: 2rem 0 2rem 0;
+}

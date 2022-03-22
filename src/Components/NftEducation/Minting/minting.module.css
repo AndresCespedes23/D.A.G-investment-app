@@ -1,0 +1,23 @@
+.mintingContainer {
+    background: #090909;
+}
+.mintingContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+    color: #d6b400;
+    
+}
+.mintingContainer h2 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: #d6b400 2px;
+    text-transform: uppercase;
+}
+.mintingContainer h3 {
+    display: flex;
+    justify-content: inherit;
+    margin: 1rem 0 1rem 0;
+}

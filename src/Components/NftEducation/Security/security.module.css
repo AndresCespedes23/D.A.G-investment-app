@@ -1,0 +1,21 @@
+.securityContainer {
+    background: #090909;
+    
+}
+.securityContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+    color: #d6b400;
+}
+.securityContainer h2 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: #d6b400 2px;
+    text-transform: uppercase;
+}
+.securityContainer p {
+    margin: 2rem 0 2rem 0;
+}

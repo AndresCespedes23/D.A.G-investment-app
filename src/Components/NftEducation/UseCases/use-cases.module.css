@@ -1,0 +1,21 @@
+.useCasesContainer {
+    background: #090909;
+    
+}
+.useCasesContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+    color: #d6b400;
+}
+.useCasesContainer h2 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: #d6b400 2px;
+    text-transform: uppercase;
+}
+.useCasesContainer p {
+    margin: 2rem 0 2rem 0;
+}
