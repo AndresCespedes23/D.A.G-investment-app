@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../../Shared/Button';
 import styles from './nft-info.module.css';
 
 function NftInformation() {
@@ -8,22 +9,9 @@ function NftInformation() {
     <section className={styles.nftContainer} id="nft">
       <div className={styles.nftShadowEffect}>
         <h2 className={styles.title}>What are NFTs?</h2>
-        <p className={styles.infoNft}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Etiam sit amet venenatis felis. Aenean sed dapibus mauris.
-          Vestibulum eget blandit risus, sit amet efficitur felis.
-          Suspendisse feugiat metus in tortor aliquam, at tempor enim sollicitudin.
-          Proin luctus ullamcorper nisl a consequat.
-          Proin posuere nisi enim, sed maximus lorem elementum a.
-          elit orci, maximus rhoncus vehicula vitae, vulputate et neque.
-          Etiam venenatis odio vitae justo tristique, sed vehicula lectus varius.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac libero nisi.
-        </p>
         <div className={styles.nftBtn}>
           <Link to="/nft-information">
-            <button className={styles.moreInfoBtn} type="button">
-              Learn more!
-            </button>
+            <Button type="more" />
           </Link>
         </div>
       </div>

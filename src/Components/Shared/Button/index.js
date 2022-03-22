@@ -26,6 +26,7 @@ function Button({ type, onClick, text }) {
       {type === 'cancel' && 'NO'}
       {type === 'bars' && <FaBars />}
       {type === 'close' && <FaTimes />}
+      {type === 'more' && 'LEARN MORE!'}
     </button>
   );
 }
