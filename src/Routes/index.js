@@ -7,10 +7,12 @@ import Minting from '../Components/NftEducation/Minting';
 import Ownership from '../Components/NftEducation/Ownership';
 import Security from '../Components/NftEducation/Security';
 import UseCases from '../Components/NftEducation/UseCases';
+import ScrollToTop from './ScrollToTop';
 
 function Pages() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/nft-education/fundamentals" element={<Fundamentals />} />
