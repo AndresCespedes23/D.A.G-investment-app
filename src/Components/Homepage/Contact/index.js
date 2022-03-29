@@ -4,7 +4,9 @@ import styles from './contact.module.css';
 
 function Contact() {
   return (
-    <section className={styles.contactContainer} id="contact">Contact</section>
+    <section className={styles.contactContainer} id="contact">
+      <h2>Contact</h2>
+    </section>
   );
 }
 
