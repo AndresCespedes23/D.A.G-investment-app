@@ -1,12 +1,10 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import DecentralizedBackground from '../../Shared/DecentralizedBackground';
 import styles from './presentation.module.css';
 
 function WhoWeAre() {
   return (
     <section className={styles.presentationContainer} id="home">
-      <DecentralizedBackground />
       <div className={styles.presentationContent}>
         <h2 className={styles.title}>Who We are</h2>
         <p className={styles.infoW}>

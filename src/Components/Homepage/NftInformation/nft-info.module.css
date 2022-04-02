@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     color: #d6b400;
-    background-color: #090909;
     border-top: 2px solid #d6b400;
     min-height: 90vh;
 }
