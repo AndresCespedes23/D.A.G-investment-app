@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     color: #d6b400;
-    min-height: 110vh;
+    min-height: 100vh;
 }
     .presentationContent{
         display: flex;

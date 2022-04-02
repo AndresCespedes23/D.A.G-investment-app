@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-around;
     color: #d6b400;
-    border-top: 2px solid #d6b400;
-    min-height: 90vh;
+    min-height: 200vh;
 }
     .nftShadowEffect{
         display: flex;

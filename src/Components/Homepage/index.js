@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable react/jsx-filename-extension */
-import React from 'react';
+import React, { Suspense } from 'react';
 import {
   Stars,
 } from '@react-three/drei';
@@ -18,19 +18,24 @@ function Homepage() {
   return (
     <>
       <Header />
-      <div className={styles.canvas}>
-        <ThreeScene>
-          <Sphere />
-          <color attach="background" args={['#090909']} />
-          <ambientLight />
-          <pointLight position={[5, 5, 5]} />
-          <Stars depth={200} />
-        </ThreeScene>
-      </div>
+
+      <Suspense fallback={null}>
+        <div className={styles.canvas}>
+          <ThreeScene>
+            <Sphere />
+            <color attach="background" args={['#090909']} />
+            <ambientLight />
+            <pointLight position={[5, 5, 5]} />
+            <Stars depth={200} />
+          </ThreeScene>
+        </div>
+      </Suspense>
+
       <WhoWeAre />
       <NftInformation />
       <Contact />
       <Footer />
+
     </>
   );
 }

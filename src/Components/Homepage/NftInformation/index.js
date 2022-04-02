@@ -10,9 +10,9 @@ function NftInformation() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <section className={styles.nftContainer} id="nft">
+    <section className={styles.nftContainer}>
       <div className={styles.nftShadowEffect}>
-        <h2 className={styles.title}>What are NFTs?</h2>
+        <h2 className={styles.title} id="nft">What are NFTs?</h2>
         <div className={styles.educationCard} data-aos="fade-up">
           <Link to="/nft-education/fundamentals">
             <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/unicornio.png`} alt="fundamentals" />
