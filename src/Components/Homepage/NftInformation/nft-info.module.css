@@ -80,6 +80,15 @@
                     -webkit-text-stroke: black 2px;
                     text-transform: uppercase;
                 }
+                @media only screen and (min-width: 992px) {
+                    .educationCard {
+                        margin:8vw;
+                    }
+                    .educationNft {
+                        display: flex;
+                    }
+                }
+
         
         
                

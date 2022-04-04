@@ -25,15 +25,15 @@
         .navLinks {
             display: none;
         }
+        ul {
+            display: flex;
+            flex-direction: column;
+            }
                 li {
-                    padding: 2vh 0 2vh 0;
                     -webkit-text-stroke: #d6b400 1px;
                     cursor:pointer;
                 }
-                li :hover{
-                    padding-bottom: 1vh;
-                    border-bottom: 3px solid #d6b400;
-                }
+                
     @media only screen and (min-width: 992px) {
         .headerContent {
             flex-direction: row;
@@ -49,6 +49,10 @@
                 padding: 0 2vw 0vw 2vw;
                 -webkit-text-stroke: #d6b400 1px;
                 cursor:pointer;
+            }
+            li :hover{
+                padding-bottom: 1vh;
+                border-bottom: 3px solid #d6b400;
             }
             .hamburger {
                 display: none;

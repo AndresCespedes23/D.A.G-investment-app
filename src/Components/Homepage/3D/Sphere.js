@@ -12,9 +12,9 @@ function Sphere() {
   });
 
   return (
-    <mesh ref={myMesh}>
-      <boxGeometry />
-      <meshStandardMaterial color="yellow" map={addLogo} />
+    <mesh ref={myMesh} position={[0, 1.7, 0]}>
+      <planeGeometry />
+      <meshStandardMaterial map={addLogo} color="yellow" />
     </mesh>
   );
 }
