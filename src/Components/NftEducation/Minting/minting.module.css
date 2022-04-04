@@ -1,6 +1,3 @@
-.mintingContainer {
-    background: #090909;
-}
 .mintingContent {
     display: flex;
     justify-content: center;
@@ -10,14 +7,25 @@
     color: #d6b400;
     
 }
-.mintingContainer h2 {
+.mintingContent h2 {
     font-size: 3rem;
     color: transparent;
     -webkit-text-stroke: #d6b400 2px;
     text-transform: uppercase;
 }
-.mintingContainer h3 {
+.mintingContent h3 {
     display: flex;
     justify-content: inherit;
     margin: 1rem 0 1rem 0;
+}
+
+.canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border: none;
+    pointer-events: none;
 }

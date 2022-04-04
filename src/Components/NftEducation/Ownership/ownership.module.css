@@ -9,12 +9,23 @@
     margin: 3rem;
     color: #d6b400;
 }
-.ownershipContainer h2 {
+.ownershipContent h2 {
     font-size: 3rem;
     color: transparent;
     -webkit-text-stroke: #d6b400 2px;
     text-transform: uppercase;
 }
-.ownershipContainer p {
+.ownershipContent p {
     margin: 2rem 0 2rem 0;
+}
+
+.canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border: none;
+    pointer-events: none;
 }

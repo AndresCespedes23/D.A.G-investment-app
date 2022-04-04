@@ -3,7 +3,7 @@
 import { Link } from 'react-router-dom';
 import styles from './header.module.css';
 
-function Header() {
+function HeaderEducation() {
   return (
     <header>
       <nav className={styles.headerContent}>
@@ -15,4 +15,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderEducation;

@@ -1,13 +1,31 @@
 /* eslint-disable react/jsx-filename-extension */
-import React from 'react';
-import Header from '../../Shared/Header';
+import React, { Suspense } from 'react';
+import {
+  Stars,
+} from '@react-three/drei';
+import ThreeScene from '../../3D/ThreeScene';
+import Boxes from '../../3D/Boxes';
+import HeaderEducation from '../../Shared/Header';
 import Footer from '../../Shared/Footer';
 import styles from './security.module.css';
 
 function Security() {
   return (
-    <div className={styles.securityContainer}>
-      <Header />
+    <>
+      <HeaderEducation />
+
+      <div className={styles.canvas}>
+        <ThreeScene>
+          <Suspense fallback={null}>
+            <Boxes />
+            <color attach="background" args={['#090909']} />
+            <ambientLight />
+            <pointLight position={[5, 5, 5]} />
+            <Stars depth={200} />
+          </Suspense>
+        </ThreeScene>
+      </div>
+
       <div className={styles.securityContent}>
         <h2>Security</h2>
         <p>
@@ -45,7 +63,7 @@ function Security() {
         </p>
       </div>
       <Footer />
-    </div>
+    </ >
   );
 }
 

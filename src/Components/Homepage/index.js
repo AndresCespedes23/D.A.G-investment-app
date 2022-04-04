@@ -7,8 +7,8 @@ import React, { Suspense } from 'react';
 import {
   Stars,
 } from '@react-three/drei';
-import Boxes from './3D/Boxes';
-import ThreeScene from './3D/ThreeScene';
+import ThreeScene from '../3D/ThreeScene';
+import Boxes from '../3D/Boxes';
 import Header from './Header';
 import WhoWeAre from './WhoWeAre';
 import NftInformation from './NftInformation';

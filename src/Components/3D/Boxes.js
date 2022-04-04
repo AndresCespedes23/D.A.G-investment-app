@@ -27,13 +27,16 @@ function Boxes() {
     }
     ref.current.instanceMatrix.needsUpdate = true;
   }, []);
+
   return (
+
     <instancedMesh ref={ref} args={[null, null, length]}>
       <boxBufferGeometry args={[0.15, 0.15, 0.15]}>
         <instancedBufferAttribute attachObject={['attributes', 'color']} args={[colorArray, 3]} />
       </boxBufferGeometry>
       <meshLambertMaterial vertexColors={THREE.VertexColors} toneMapped={false} />
     </instancedMesh>
+
   );
 }
 
