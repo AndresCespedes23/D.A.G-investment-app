@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable no-plusplus */
 /* eslint-disable max-len */

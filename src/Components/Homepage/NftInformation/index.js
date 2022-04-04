@@ -12,7 +12,7 @@ function NftInformation() {
   return (
     <section className={styles.nftContainer}>
       <div className={styles.nftShadowEffect}>
-        <h2 className={styles.title} id="nft">What are NFTs?</h2>
+        <h2 className={styles.title} id="nft" data-aos="zoom-in">What are NFTs?</h2>
         <div className={styles.educationNft}>
           <div>
             <div className={styles.educationCard} data-aos="fade-up">
