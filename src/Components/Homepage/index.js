@@ -7,7 +7,7 @@ import React, { Suspense } from 'react';
 import {
   Stars,
 } from '@react-three/drei';
-import Ether from './3D/Ether';
+import Boxes from './3D/Boxes';
 import ThreeScene from './3D/ThreeScene';
 import Header from './Header';
 import WhoWeAre from './WhoWeAre';
@@ -24,7 +24,7 @@ function Homepage() {
       <div className={styles.canvas}>
         <ThreeScene>
           <Suspense fallback={null}>
-            <Ether />
+            <Boxes />
             <color attach="background" args={['#090909']} />
             <ambientLight />
             <pointLight position={[5, 5, 5]} />

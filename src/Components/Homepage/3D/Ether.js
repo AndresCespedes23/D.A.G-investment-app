@@ -15,7 +15,6 @@ function Ether() {
     <mesh ref={myMesh} position={[0, -1, 0]} scale={0.2}>
       <octahedronGeometry />
       <meshStandardMaterial color="yellow" />
-
     </mesh>
 
   );
