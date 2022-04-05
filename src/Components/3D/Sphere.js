@@ -8,11 +8,11 @@ function Sphere() {
   const myMesh = React.useRef();
 
   useFrame(() => {
-    myMesh.current.rotation.y += 0.01;
+    myMesh.current.rotation.y += 0.1;
   });
 
   return (
-    <mesh ref={myMesh} position={[0, 1.7, 0]}>
+    <mesh ref={myMesh} position={[0, 0.9, 3.5]} scale={0.2}>
       <planeGeometry />
       <meshStandardMaterial map={addLogo} color="yellow" />
     </mesh>

@@ -9,6 +9,7 @@ import {
 } from '@react-three/drei';
 import ThreeScene from '../3D/ThreeScene';
 import Boxes from '../3D/Boxes';
+import Sphere from '../3D/Sphere';
 import Header from './Header';
 import WhoWeAre from './WhoWeAre';
 import NftInformation from './NftInformation';
@@ -25,6 +26,7 @@ function Homepage() {
         <ThreeScene>
           <Suspense fallback={null}>
             <Boxes />
+            <Sphere />
             <color attach="background" args={['#090909']} />
             <ambientLight />
             <pointLight position={[5, 5, 5]} />

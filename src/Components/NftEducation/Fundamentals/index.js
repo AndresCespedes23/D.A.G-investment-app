@@ -4,7 +4,7 @@ import {
   Stars,
 } from '@react-three/drei';
 import ThreeScene from '../../3D/ThreeScene';
-import Boxes from '../../3D/Boxes';
+import Ether from '../../3D/Ether';
 import HeaderEducation from '../../Shared/Header';
 import Footer from '../../Shared/Footer';
 import styles from './fundamentals.module.css';
@@ -17,7 +17,7 @@ function Fundamentals() {
       <div className={styles.canvas}>
         <ThreeScene>
           <Suspense fallback={null}>
-            <Boxes />
+            <Ether />
             <color attach="background" args={['#090909']} />
             <ambientLight />
             <pointLight position={[5, 5, 5]} />
