@@ -15,7 +15,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-top: 20vh;
-                font-size: 3rem;
+                font-size: 1rem;
                 color: transparent;
                 -webkit-text-stroke: #d6b400 2px;
                 text-transform: uppercase;
@@ -81,6 +81,9 @@
                     text-transform: uppercase;
                 }
                 @media only screen and (min-width: 992px) {
+                    .title {
+                        font-size: 4rem;
+                    }
                     .educationCard {
                         margin:8vw;
                     }

@@ -10,7 +10,7 @@
     border-radius: 2%;
 }
 .mintingContent h2 {
-    font-size: 3rem;
+    font-size: 1rem;
     color: transparent;
     -webkit-text-stroke: #d6b400 2px;
     text-transform: uppercase;
@@ -20,6 +20,12 @@
     justify-content: inherit;
     margin: 1rem 0 1rem 0;
 }
+@media only screen and (min-width: 992px) {
+    .mintingContent h2 {
+        font-size: 4rem;
+    }
+}
+
 
 .canvas {
     position: fixed;

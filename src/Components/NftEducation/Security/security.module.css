@@ -10,7 +10,7 @@
     border-radius: 2%;
 }
 .securityContent h2 {
-    font-size: 3rem;
+    font-size: 1rem;
     color: transparent;
     -webkit-text-stroke: #d6b400 2px;
     text-transform: uppercase;
@@ -28,4 +28,9 @@
     z-index: -1;
     border: none;
     pointer-events: none;
+}
+@media only screen and (min-width: 992px) {
+    .securityContent h2 {
+        font-size: 4rem;
+    }
 }
