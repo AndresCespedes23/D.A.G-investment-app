@@ -1,5 +1,6 @@
 .blockchain {
     background-color: black;
+    min-height: 2vh;
 }
 .footerContainer {
     display: flex;
