@@ -12,7 +12,7 @@ function Footer() {
       </div>
       <div className={styles.footerContainer}>
         <Link to="/">
-          <img className={styles.logo} src={`${process.env.PUBLIC_URL}/bennu-icon.png`} alt="bennu logo" />
+          <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu-icon.png`} alt="bennu logo" />
         </Link>
         <p className={styles.copyright}>
           ©2022 Bennu

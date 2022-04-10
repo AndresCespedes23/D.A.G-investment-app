@@ -9,7 +9,7 @@ import niceColors from 'nice-color-palettes';
 const length = 125000;
 const o = new THREE.Object3D();
 const c = new THREE.Color();
-const colors = Array.from({ length }, () => niceColors[61][Math.floor(Math.random() * 75)]);
+const colors = Array.from({ length }, () => niceColors[12][Math.floor(Math.random() * 5)]);
 
 function Boxes() {
   const ref = useRef();

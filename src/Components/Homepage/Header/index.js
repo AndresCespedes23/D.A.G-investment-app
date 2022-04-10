@@ -28,7 +28,7 @@ function Header() {
   return (
     <header className={color ? styles.headerChangeColor : styles.headerPosition}>
       <nav className={styles.headerContent}>
-        <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
+        <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu-logo1.png`} alt="bennu logo" />
         <div className={styles.responsivePosition}>
           <div className={styles.hamburger} onClick={handleClick}>
             {click ? (<FaTimes size={30} />)
