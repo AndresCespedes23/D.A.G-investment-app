@@ -8,7 +8,7 @@ function HeaderEducation() {
     <header>
       <nav className={styles.headerContent}>
         <Link to="/">
-          <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu.png`} alt="bennu logo" />
+          <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu-logo1.png`} alt="bennu logo" />
         </Link>
       </nav>
     </header>

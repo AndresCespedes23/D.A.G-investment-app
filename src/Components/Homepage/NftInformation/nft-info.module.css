@@ -1,6 +1,7 @@
 .nftContainer {
     display: flex;
     justify-content: space-around;
+    margin: 0 3rem 0 3rem;
     color: #d6b400;
     min-height: 200vh;
 }
