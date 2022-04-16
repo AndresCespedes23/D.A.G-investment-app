@@ -4,7 +4,7 @@ import styles from './roadmap.module.css';
 
 function Roadmap() {
   return (
-    <div className={styles.roadmap}>
+    <div className={styles.roadmap} id="roadmap">
       <h1 className={styles.title}>Roadmap</h1>
       <section className={styles.roadmapContent}>
         <p>

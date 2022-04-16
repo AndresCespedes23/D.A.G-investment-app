@@ -6,9 +6,9 @@
     background: linear-gradient(
         54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.95)), url('../../../../public/bennu-icon.png');
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 120vh;
-    background-size: cover;
+    background-position: right;
+    min-height: 100vh;
+    background-size: contain;
 }
     .presentationContent{
         display: flex;
@@ -33,6 +33,10 @@
             margin: 1rem 2rem 1rem 2rem;
         }
         @media only screen and (min-width: 992px) {
+            .presentationContent {
+                position: absolute;
+                padding-left: 5vw;
+            }
             .title {
                 font-size: 4rem;
             }

@@ -6,7 +6,7 @@ import styles from './faq.module.css';
 
 function FAQ() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="faq">
       <Dropdown />
     </div>
   );

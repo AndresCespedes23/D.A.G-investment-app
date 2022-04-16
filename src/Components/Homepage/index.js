@@ -16,8 +16,8 @@ function Homepage() {
   return (
     <div className={styles.homepage}>
 
-      <Header />
       <WhoWeAre />
+      <Header />
       <Roadmap />
       <FAQ />
       <Footer />

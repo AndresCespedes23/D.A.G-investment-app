@@ -1,5 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-filename-extension */
+import { Link } from 'react-scroll';
 import styles from './mobile-navbar.module.css';
 
 function MobileNavBar() {
@@ -8,16 +9,16 @@ function MobileNavBar() {
       <nav className={styles.navbarContent}>
         <ul className={styles.navLinks}>
           <li>
-            HOME
+            <Link to="home" spy smooth offset={50} duration={500}>HOME</Link>
           </li>
           <li>
-            QUIENES SOMOS
+            <Link to="w" spy smooth offset={50} duration={500}>QUIENSE SOMOS</Link>
           </li>
           <li>
-            ROADMAP
+            <Link to="roadmap" spy smooth offset={50} duration={500}>ROADMAP</Link>
           </li>
           <li>
-            FAQs
+            <Link to="faq" spy smooth offset={50} duration={500}>FAQs</Link>
           </li>
         </ul>
       </nav>
