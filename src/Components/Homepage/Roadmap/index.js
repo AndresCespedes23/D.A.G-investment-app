@@ -5,8 +5,8 @@ import styles from './roadmap.module.css';
 function Roadmap() {
   return (
     <div className={styles.roadmap}>
-      <h1>Roadmap</h1>
-      <section>
+      <h1 className={styles.title}>Roadmap</h1>
+      <section className={styles.roadmapContent}>
         <p>
           nuestra colección tiene como proposito el sorteo de entradas para el mundial en Qatar.
           adquiriendo cada una de nuestras piezas participas del mismo.

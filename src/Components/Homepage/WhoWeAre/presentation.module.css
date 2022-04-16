@@ -6,7 +6,6 @@
     background: linear-gradient(
         54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.95)), url('../../../../public/bennu-icon.png');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
     min-height: 120vh;
     background-size: cover;
