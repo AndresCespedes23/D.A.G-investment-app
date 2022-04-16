@@ -1,12 +1,11 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-filename-extension */
-import styles from './header.module.css';
+import styles from './mobile-navbar.module.css';
 
-function Header() {
+function MobileNavBar() {
   return (
-    <header className={styles.headerPosition}>
-      <nav className={styles.headerContent}>
-        <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu-header.png`} alt="bennu logo" />
+    <section className={styles.navbarPosition}>
+      <nav className={styles.navbarContent}>
         <ul className={styles.navLinks}>
           <li>
             HOME
@@ -22,8 +21,8 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </section>
   );
 }
 
-export default Header;
+export default MobileNavBar;

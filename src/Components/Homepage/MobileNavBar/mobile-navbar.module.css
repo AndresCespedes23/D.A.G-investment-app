@@ -1,0 +1,23 @@
+.navbarContent {
+    position: fixed;
+    background: black;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+}
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navLinks li {
+    padding-left: 4vw;
+    cursor: pointer;
+    color: white;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbarContent {
+        display: none;
+    }
+}

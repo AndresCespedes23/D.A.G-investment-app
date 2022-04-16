@@ -6,18 +6,23 @@
 import React from 'react';
 import Header from './Header';
 import WhoWeAre from './WhoWeAre';
+import Roadmap from './Roadmap';
+import Hero from './Hero';
 import Footer from '../Shared/Footer';
 import styles from './homepage.module.css';
+import MobileNavBar from './MobileNavBar';
 
 function Homepage() {
   return (
     <div className={styles.homepage}>
-      <div className={styles.homeContainer}>
-        <Header />
-        <WhoWeAre />
-        <Footer />
 
-      </div>
+      <Header />
+      <WhoWeAre />
+      <Roadmap />
+      <Hero />
+      <Footer />
+      <MobileNavBar />
+
     </div>
   );
 }
