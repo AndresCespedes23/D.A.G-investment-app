@@ -1,4 +1,6 @@
 .headerPosition {
+    display: none;
+    position: fixed;
     width: 100%;
 }
     .headerContent {
@@ -16,6 +18,13 @@
             display: none;
         }
 @media only screen and (min-width: 992px) {
+    .headerChangeColor {
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        transition: .3s ease-in;
+        z-index: 1;
+    }
     .navLinks {
         display: flex;
     }
