@@ -33,7 +33,7 @@ const Wrap = styled.div`
 
   h2 {
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   span {
