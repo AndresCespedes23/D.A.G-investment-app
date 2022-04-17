@@ -9,16 +9,24 @@ function MobileNavBar() {
       <nav className={styles.navbarContent}>
         <ul className={styles.navLinks}>
           <li>
-            <Link to="home" spy smooth duration={500}>HOME</Link>
+            <Link to="w" spy smooth duration={500}>
+              <img src={`${process.env.PUBLIC_URL}/assets/img/casa.png`} alt="home" />
+            </Link>
           </li>
           <li>
-            <Link to="w" spy smooth duration={500}>QUIENSE SOMOS</Link>
+            <Link to="w" spy smooth duration={500}>
+              <img src={`${process.env.PUBLIC_URL}/assets/img/anonimo.png`} alt="anonymus" />
+            </Link>
           </li>
           <li>
-            <Link to="roadmap" spy smooth duration={500}>ROADMAP</Link>
+            <Link to="roadmap" spy smooth duration={500}>
+              <img src={`${process.env.PUBLIC_URL}/assets/img/distance.png`} alt="roadmap" />
+            </Link>
           </li>
           <li>
-            <Link to="faq" spy smooth duration={500}>FAQs</Link>
+            <Link to="faq" spy smooth duration={500}>
+              <img src={`${process.env.PUBLIC_URL}/assets/img/pregunta.png`} alt="faq" />
+            </Link>
           </li>
         </ul>
       </nav>

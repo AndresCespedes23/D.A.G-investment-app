@@ -4,6 +4,7 @@
     overflow: hidden;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid rgba(128, 102, 33, 0.95);
 }
 .navLinks {
     display: flex;
@@ -11,11 +12,22 @@
     align-items: center;
 }
 .navLinks li {
-    padding-left: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
     cursor: pointer;
     color: white;
+    width: 100%;
+    height: auto;
 }
+li img {
+    margin:0.3rem 0rem 0.3rem 0rem;
+}
+li img:hover {
+    transform: scale(1.1);
 
+}
 @media only screen and (min-width: 992px) {
     .navbarContent {
         display: none;

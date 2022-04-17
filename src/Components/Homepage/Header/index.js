@@ -20,10 +20,10 @@ function Header() {
         <img className={styles.logo} src={`${process.env.PUBLIC_URL}/assets/img/bennu-header.png`} alt="bennu logo" />
         <ul className={styles.navLinks}>
           <li>
-            <Link to="home" spy smooth duration={500}>HOME</Link>
+            <Link to="w" spy smooth duration={500}>HOME</Link>
           </li>
           <li>
-            <Link to="w" spy smooth duration={500}>QUIENSE SOMOS</Link>
+            <Link to="w" spy smooth duration={500}>WHO WE ARE</Link>
           </li>
           <li>
             <Link to="roadmap" spy smooth duration={500}>ROADMAP</Link>

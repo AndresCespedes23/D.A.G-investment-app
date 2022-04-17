@@ -8,7 +8,10 @@ function DecentralizedBackground() {
       id="tsparticles"
       height="100vh"
       options={{
-        fullScreen: false,
+        fullScreen: {
+          enable: false,
+          zIndex: -1,
+        },
         fpsLimit: 60,
         interactivity: {
           events: {

@@ -13,7 +13,7 @@ function Loading() {
   window.addEventListener('load', loadingTheather);
 
   return (
-    <section className={isLoading ? styles.modalHidden : styles.modalContainer}>
+    <section className={isLoading ? styles.modalContainerHidden : styles.modalContainer}>
       <div className={styles.modal}>
         <div className={styles.modalContent}>
           <Spinner />
