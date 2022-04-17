@@ -42,7 +42,7 @@ function DecentralizedBackground() {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 90,
           },
           opacity: {
             value: 0.5,
