@@ -4,8 +4,7 @@
     align-items: center;
 }
 .modalContainerHidden {
-    opacity: 0;
-    transition: opacity 3s ease-in-out;
+    display: none;
 }
   .modal {
       display: block; /* Hidden by default */
