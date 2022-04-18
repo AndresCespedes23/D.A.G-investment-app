@@ -15,6 +15,5 @@
     }
     .copyright {
         padding-top: 2vh;
-        color: transparent;
-        -webkit-text-stroke: white 1px;
+        color: white;
     }

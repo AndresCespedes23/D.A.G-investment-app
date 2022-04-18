@@ -14,7 +14,5 @@
   align-items: center;
   padding: 3rem 0rem;
   font-size: 2rem;
-  color: transparent;
-  -webkit-text-stroke: black 2px;
   text-transform: uppercase;
 }

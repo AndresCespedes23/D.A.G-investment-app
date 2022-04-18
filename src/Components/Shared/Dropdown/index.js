@@ -30,6 +30,7 @@ const Wrap = styled.div`
   width: 100%;
   text-align: center;
   cursor: pointer;
+  font-family: 'Concert One', cursive;
 
   h2 {
     padding: 2rem;
@@ -53,6 +54,7 @@ const Dropdown = styled.div`
   border-bottom: 1px solid rgba(184, 148, 50, 0.95);
   border-top: 1px solid rgba(184, 148, 50, 0.95);
   overflow: hidden;
+  font-family: 'Concert One', cursive;
 
   p {
     margin: 1rem;
