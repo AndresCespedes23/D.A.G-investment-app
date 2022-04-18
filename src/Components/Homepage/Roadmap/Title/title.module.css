@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem 1rem 0rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 5px groove rgba(184, 148, 50, 0.95);
+    border-radius: 35%;
+    color: white;
+   
+}
+img {
+    margin-right: 1vw;
+}

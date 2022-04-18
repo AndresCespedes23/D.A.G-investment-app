@@ -4,9 +4,9 @@
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(
-        54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.95)), url('../../../../public/bennu-icon.png');
+        54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.911)), url('../../../../public/bennu-background.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     min-height: 100vh;
     background-size: contain;
 }
@@ -29,9 +29,12 @@
             justify-content: center;
             align-items: center;
             -webkit-text-stroke: black 1px;
-            margin: 1rem 2rem 1rem 2rem;
+            margin: 1rem 4rem 1rem 4rem;
         }
         @media only screen and (min-width: 992px) {
+            .presentationContainer {
+                background-position: right;
+            }
             .presentationContent {
                 position: absolute;
                 padding-left: 5vw;
