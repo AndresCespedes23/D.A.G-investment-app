@@ -15,21 +15,21 @@ function Roadmap() {
       <Title />
       <div className={styles.roadmap} id="roadmap">
         <section className={styles.roadmapContent}>
-          <div className={styles.info1} data-aos="fade-right">
+          <div className={styles.info1} data-aos="zoom-out">
             <img src={`${process.env.PUBLIC_URL}/assets/img/tickets.png`} alt="tickets" />
             <p>
               Nuestra colección tiene como proposito el sorteo de entradas para el mundial en Qatar.
               adquiriendo cada una de nuestras piezas participas del mismo.
             </p>
           </div>
-          <div className={styles.info2} data-aos="fade-left">
+          <div className={styles.info2} data-aos="zoom-out">
             <img src={`${process.env.PUBLIC_URL}/assets/img/price.png`} alt="price" />
             <p>
               Los precios varian segun la rareza del coleccionable que quieras adquirir
               y eso se refleja en el valor de la entrada
             </p>
           </div>
-          <div className={styles.info1} data-aos="fade-right">
+          <div className={styles.info1} data-aos="zoom-out">
             <img src={`${process.env.PUBLIC_URL}/assets/img/winning.png`} alt="winner" />
             <p>
               Si sos el ganador de una de las entradas podes
@@ -37,7 +37,7 @@ function Roadmap() {
               la entrada se manda al dueño una semana despues de anunciado el ganador.
             </p>
           </div>
-          <div className={styles.info2} data-aos="fade-left">
+          <div className={styles.info2} data-aos="zoom-out">
             <img src={`${process.env.PUBLIC_URL}/assets/img/clover.png`} alt="clover" />
             <p>
               Poseer estos nfts te dara no solo la posibilidad de ganarte una entrada,
