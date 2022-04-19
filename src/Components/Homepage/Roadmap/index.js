@@ -24,7 +24,6 @@ function Roadmap() {
                 adquiriendo cada una de nuestras piezas participas del mismo.
               </p>
             </div>
-            <img className={styles.arrows} src={`${process.env.PUBLIC_URL}/assets/fulvo/3.png`} alt="flechas" />
           </div>
           <div className={styles.fields2}>
             <div className={styles.info2} data-aos="zoom-in">
@@ -34,7 +33,6 @@ function Roadmap() {
                 y eso se refleja en el valor de la entrada
               </p>
             </div>
-            <img className={styles.arrows} src={`${process.env.PUBLIC_URL}/assets/fulvo/3.png`} alt="flechas" />
           </div>
           <div className={styles.fields}>
             <div className={styles.info1} data-aos="zoom-in">
@@ -45,7 +43,6 @@ function Roadmap() {
                 la entrada se manda al dueño una semana despues de anunciado el ganador.
               </p>
             </div>
-            <img className={styles.arrows} src={`${process.env.PUBLIC_URL}/assets/fulvo/3.png`} alt="flechas" />
           </div>
           <div className={styles.fields2}>
             <div className={styles.info2} data-aos="zoom-in">
