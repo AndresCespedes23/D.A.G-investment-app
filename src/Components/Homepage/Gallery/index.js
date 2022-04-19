@@ -37,7 +37,6 @@ function Gallery() {
       <AliceCarousel
         autoWidth={false}
         autoPlay
-        autoPlayControls
         autoPlayStrategy="none"
         autoPlayInterval={1000}
         animationDuration={1000}
