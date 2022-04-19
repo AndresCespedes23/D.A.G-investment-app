@@ -28,7 +28,7 @@ const items = [
 
 function Gallery() {
   const responsive = {
-    0: { items: 1 },
+    0: { items: 2 },
 
     1024: { items: 5 },
   };
