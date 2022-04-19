@@ -9,7 +9,7 @@ function MobileNavBar() {
       <nav className={styles.navbarContent}>
         <ul className={styles.navLinks}>
           <li>
-            <Link to="w" spy smooth duration={500}>
+            <Link to="home" spy smooth duration={500}>
               <img src={`${process.env.PUBLIC_URL}/assets/img/casa.png`} alt="home" />
             </Link>
           </li>

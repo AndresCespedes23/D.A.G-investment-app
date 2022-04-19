@@ -4,11 +4,8 @@
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(
-        54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.911)), url('../../../../public/bennu-background.png');
-    background-repeat: no-repeat;
-    background-position: center;
+        54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.911));
     min-height: 100vh;
-    background-size: contain;
 }
     .presentationContent{
         display: flex;
@@ -33,7 +30,12 @@
         }
         @media only screen and (min-width: 992px) {
             .presentationContainer {
+                background: linear-gradient(
+                    54deg,rgba(184, 148, 50, 0.95) 34%,rgba(243, 235, 235, 0.911)), url('../../../../public/bennu-background.png');
+                background-repeat: no-repeat;
                 background-position: right;
+                min-height: 100vh;
+                background-size: contain;
             }
             .presentationContent {
                 position: absolute;

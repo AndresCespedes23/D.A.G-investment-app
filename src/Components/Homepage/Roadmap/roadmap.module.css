@@ -6,9 +6,9 @@
     margin: 0.5rem;
     color: white;
     background: linear-gradient(
-        54deg,rgba(0, 0, 0, 0.466) 34%,rgba(189, 165, 165, 0.486)), url('../../../../public/assets/img/la-del-mundo.png');
-    background-repeat: no-repeat;
-    background-position: center;
+        54deg,rgba(0, 0, 0, 0.466) 34%,rgba(126, 111, 111, 0.486)), url('../../../../public/assets/img/PSX_20220419_134112.jpg');;
+    background-repeat: repeat;
+    background-position: bottom;
     min-height: 120vh;
     background-size: contain;
 }
@@ -37,6 +37,14 @@
     }
 
     @media only screen and (min-width: 992px) {
+        .roadmap {
+            background: linear-gradient(
+                54deg,rgba(0, 0, 0, 0.466) 34%,rgba(189, 165, 165, 0.486)), url('../../../../public/assets/img/la-del-mundo.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                min-height: 120vh;
+                background-size: contain;
+        }
        .info1, .info2 {
            margin: 6rem;
 
