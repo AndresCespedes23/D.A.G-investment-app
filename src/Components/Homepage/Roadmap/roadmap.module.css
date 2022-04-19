@@ -24,6 +24,9 @@
         align-items: flex-end;
         flex-direction: column; 
     }
+    .arrows {
+        display:none;
+    }
     .info1 img, .info2 img {
         padding: 2rem;
     }
@@ -39,21 +42,16 @@
     @media only screen and (min-width: 992px) {
         .roadmap {
             background: linear-gradient(
-                54deg,rgba(0, 0, 0, 0.466) 34%,rgba(189, 165, 165, 0.486)), url('../../../../public/assets/img/FIFA\ World\ Cup\ Qatar\ 2022\ Logo\ \(PNG-1080p\)\ -\ FileVector69.webp');
+                54deg,rgba(0, 0, 0, 0.466) 34%,rgba(189, 165, 165, 0.486)), url('../../../../public/assets/img/qatar-wc.png');
                 background-repeat: no-repeat;
                 background-position: center;
                 min-height: 120vh;
                 background-size: contain;
         }
        .info1, .info2 {
-           margin: 6rem;
-
-       }
-       .info1 {
-            width: 30%;
-       }
-       .info2 {
-            width:30%;
-            padding-left: 50vw;
-        }
+           margin: 1rem;
     }
+    .arrows {
+        display: block;
+    }
+}

@@ -28,8 +28,8 @@ const items = [
 
 function Gallery() {
   const responsive = {
-    0: { items: 2 },
-
+    0: { items: 1 },
+    600: { items: 2 },
     1024: { items: 5 },
   };
   return (
@@ -45,6 +45,7 @@ function Gallery() {
         disableDotsControls
         disableButtonsControls
         mouseTracking
+        paddingLeft={100}
         responsive={responsive}
         items={items}
       />
