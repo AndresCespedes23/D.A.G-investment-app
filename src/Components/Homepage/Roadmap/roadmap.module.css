@@ -37,7 +37,7 @@
         .roadmap {
             background: linear-gradient(
                 54deg,rgba(58, 57, 57, 0.733) 34%,rgba(128, 110, 110, 0.685)), url('../../../../public/assets/img/qatar-wc.png');
-                background-repeat: no-repeat;
+                background-repeat: repeat;
                 background-position: center;
                 min-height: 120vh;
                 background-size: contain;
