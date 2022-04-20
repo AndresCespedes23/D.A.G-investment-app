@@ -25,7 +25,10 @@ function Roadmap() {
               </p>
             </div>
           </div>
-          <img className={styles.arrows} src={`${process.env.PUBLIC_URL}/assets/fulvo/1.png`} alt="bennu logo" />
+          {/* <img
+          className={styles.arrows}
+          src={`${process.env.PUBLIC_URL}/assets/fulvo/1.png`}
+          alt="bennu logo" /> */}
           <div className={styles.fields2}>
             <div className={styles.info2} data-aos="zoom-in">
               <img src={`${process.env.PUBLIC_URL}/assets/img/price.png`} alt="price" />
@@ -35,7 +38,10 @@ function Roadmap() {
               </p>
             </div>
           </div>
-          <img className={styles.arrows} src={`${process.env.PUBLIC_URL}/assets/fulvo/2.png`} alt="bennu logo" />
+          {/* <img
+          className={styles.arrows}
+          src={`${process.env.PUBLIC_URL}/assets/fulvo/2.png`}
+        alt="bennu logo" /> */}
           <div className={styles.fields}>
             <div className={styles.info1} data-aos="zoom-in">
               <img src={`${process.env.PUBLIC_URL}/assets/img/winning.png`} alt="winner" />
@@ -46,7 +52,10 @@ function Roadmap() {
               </p>
             </div>
           </div>
-          <img className={styles.arrows} src={`${process.env.PUBLIC_URL}/assets/fulvo/3.png`} alt="bennu logo" />
+          {/* <img
+          className={styles.arrows}
+          src={`${process.env.PUBLIC_URL}/assets/fulvo/3.png`}
+          alt="bennu logo" /> */}
           <div className={styles.fields2}>
             <div className={styles.info2} data-aos="zoom-in">
               <img src={`${process.env.PUBLIC_URL}/assets/img/clover.png`} alt="clover" />
