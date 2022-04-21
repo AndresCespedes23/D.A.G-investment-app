@@ -7,7 +7,7 @@ import styles from './roadmap.module.css';
 
 function Roadmap() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 2000 });
   }, []);
 
   return (
@@ -25,10 +25,6 @@ function Roadmap() {
               </p>
             </div>
           </div>
-          {/* <img
-          className={styles.arrows}
-          src={`${process.env.PUBLIC_URL}/assets/fulvo/1.png`}
-          alt="bennu logo" /> */}
           <div className={styles.fields2}>
             <div className={styles.info2} data-aos="zoom-in">
               <img src={`${process.env.PUBLIC_URL}/assets/img/price.png`} alt="price" />
@@ -38,12 +34,8 @@ function Roadmap() {
               </p>
             </div>
           </div>
-          {/* <img
-          className={styles.arrows}
-          src={`${process.env.PUBLIC_URL}/assets/fulvo/2.png`}
-        alt="bennu logo" /> */}
           <div className={styles.fields}>
-            <div className={styles.info1} data-aos="zoom-in">
+            <div className={styles.info3} data-aos="zoom-in">
               <img src={`${process.env.PUBLIC_URL}/assets/img/winning.png`} alt="winner" />
               <p>
                 Si sos el ganador de una de las entradas podes
@@ -52,12 +44,8 @@ function Roadmap() {
               </p>
             </div>
           </div>
-          {/* <img
-          className={styles.arrows}
-          src={`${process.env.PUBLIC_URL}/assets/fulvo/3.png`}
-          alt="bennu logo" /> */}
           <div className={styles.fields2}>
-            <div className={styles.info2} data-aos="zoom-in">
+            <div className={styles.info4} data-aos="zoom-in">
               <img src={`${process.env.PUBLIC_URL}/assets/img/clover.png`} alt="clover" />
               <p>
                 Poseer estos nfts te dara no solo la posibilidad de ganarte una entrada,
