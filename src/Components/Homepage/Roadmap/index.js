@@ -7,7 +7,7 @@ import styles from './roadmap.module.css';
 
 function Roadmap() {
   useEffect(() => {
-    Aos.init({ duration: 700 });
+    Aos.init({ duration: 2000 });
   }, []);
 
   return (
